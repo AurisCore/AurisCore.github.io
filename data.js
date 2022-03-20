@@ -8,8 +8,8 @@ var prodsObj =
     "https://t3.ftcdn.net/jpg/02/61/85/92/360_F_261859293_WvBhDNgsf1H58DCUcrAyHqPXvoEu8cGV.jpg","https://rotulosdecorativos.com/wp-content/uploads/2018/11/S001019.jpg"
   ],
   "titulo": "TESP",
-  "precio": "12",
-  "body": "sssI",
+  "precio": "12333",
+  "body": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
   "modelo": "12",
   "peso": "3kg",
   "dimensiones": "22x22",
