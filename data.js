@@ -7,7 +7,7 @@ var prodsObj =
   "image": [
     "https://t3.ftcdn.net/jpg/02/61/85/92/360_F_261859293_WvBhDNgsf1H58DCUcrAyHqPXvoEu8cGV.jpg","https://rotulosdecorativos.com/wp-content/uploads/2018/11/S001019.jpg"
   ],
-  "titulo": "TESP",
+  "titulo": "TEST0",
   "precio": "12333",
   "body": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
   "modelo": "12",
