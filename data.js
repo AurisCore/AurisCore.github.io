@@ -9,7 +9,7 @@ var prodsObj =
   ],
   "titulo": "TEST-G",
   "precio": "12333",
-  "body": "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+  "body": "ES UN TEST-G",
   "modelo": "12",
   "peso": "3kg",
   "dimensiones": "22x22",
