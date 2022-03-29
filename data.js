@@ -1,6 +1,6 @@
 var prodsObj =
 [{
-  "titulo": "MAGA-ZINE",
+  "titulo": "MAGAE",
   "precio": "600",
   "currency": "USD",
   
