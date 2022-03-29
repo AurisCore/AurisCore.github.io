@@ -7,10 +7,12 @@ var prodsObj =
   "image": [
     "https://t3.ftcdn.net/jpg/02/61/85/92/360_F_261859293_WvBhDNgsf1H58DCUcrAyHqPXvoEu8cGV.jpg","https://rotulosdecorativos.com/wp-content/uploads/2018/11/S001019.jpg"
   ],
-  "titulo": "TEST0",
-  "precio": "12333",
+  "titulo": "MAGA-ZINE",
+  "precio": "600",
   "currency": "USD",
-  "body": "ES UN TEST-G",
+  "body": "
+  -MAGA-ZINE
+  -SUP",
   "modelo": "12",
   "peso": "3kg",
   "dimensiones": "22x22",
