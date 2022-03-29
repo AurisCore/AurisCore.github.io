@@ -26,3 +26,6 @@ var externosObj = {
   "social_link": "s//n",
   "numero_apped": "59895330453"
 }
+
+// start init data
+init_prods(prodsObj);
