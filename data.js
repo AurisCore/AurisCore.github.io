@@ -28,4 +28,5 @@ var externosObj = {
 }
 
 // start init data
-init_prods(prodsObj);
+const event = document.createEvent('Event');
+event.initEvent('lago', true, true);
