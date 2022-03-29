@@ -28,5 +28,4 @@ var externosObj = {
 }
 
 // start init data
-const event = document.createEvent('Event');
-event.initEvent('lago', true, true);
+i()
