@@ -9,15 +9,12 @@ var prodsObj =
   ],
   "titulo": "TEST0",
   "precio": "12333",
+  "currency": "USD",
   "body": "ES UN TEST-G",
   "modelo": "12",
   "peso": "3kg",
   "dimensiones": "22x22",
-  "html":"<table><thead><tr><th>Características</th><th>Equipo Actual</th></tr></thead><tbody><tr><td>Portable</td><td style='color:green'>✔</td></tr><tr><td>Potencia de salida</td><td>incomparable!</td></tr><tr><td>Diseño versátil de aplicación práctica</td><td style='color:green'>✔</td></tr><tr><td>Manual de uso</td><td style='color:green'>✔</td></tr></tbody></table>",
-  "created": {
-    "$date": "2022-01-15T06:30:52.373Z"
-  },
-  "__v": 0
+  "html":"<table><thead><tr><th>Características</th><th>Equipo Actual</th></tr></thead><tbody><tr><td>Portable</td><td style='color:green'>✔</td></tr><tr><td>Potencia de salida</td><td>incomparable!</td></tr><tr><td>Diseño versátil de aplicación práctica</td><td style='color:green'>✔</td></tr><tr><td>Manual de uso</td><td style='color:green'>✔</td></tr></tbody></table>"
 },
 {
   "_id": {
