@@ -10,7 +10,7 @@ var prodsObj =
   "titulo": "MAGA-ZINE",
   "precio": "600",
   "currency": "USD",
-  "body": "MAGAZINE- -SUP -ALM",
+  "body": "MAGAZINE ALM _SS",
   "modelo": "12",
   "peso": "3kg",
   "dimensiones": "22x22",
