@@ -9,7 +9,7 @@ var prodsObj =
   "image": [
     "https://sc04.alicdn.com/kf/H7a2d8689d3514794b2780a5aafe417bdm.jpg"
   ],
-  "body": "MAGAZINE ALM _SS",
+  "body": 'Este nuevo set básico ("core set") está optimizado para su uso educativo en clase o en casa y contiene todo lo que necesita para aprender con el estimulante set LEGO ® MINDSTORMS ®. Permite a los estudiantes construir, programar y probar sus soluciones basadas en la tecnología robótica de vida real.  Contiene el ladrillo inteligente EV3, un pequeño pero potente ordenador que hace posible el control de servo-motores y captar información de sensores. También permite la comunicación BT y WiFi, así como la programación y registro de datos ("data logging").',
   "modelo": "12",
   "peso": "3kg",
   "dimensiones": "22x22",
