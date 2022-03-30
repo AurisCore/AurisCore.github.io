@@ -4,7 +4,7 @@ var prodsObj =
   "precio": "600",
   "currency": "USD",
   
-  "video": [],
+  "video": ["https://cdn-animation.artstation.com/p/video_sources/000/032/849/comp-2.mp4"],
   "thumb_image":"https://cdn.getfpv.com/media/catalog/product/cache/1/small_image/300x/17f82f742ffe127f42dca9de82fb58b1/t/b/tbs-crossfire-nano-rx-pro-main-front.jpg",
   "image": [
     "https://sc04.alicdn.com/kf/H7a2d8689d3514794b2780a5aafe417bdm.jpg",
