@@ -11,10 +11,7 @@ var proTmpl =
 
 
 function CrearProDetails(data) {
-    $pro_details.append(proTmpl({
-      titulo: data.titulo,
-      precio: "$" + data.precio + currencyOk(data.currency),
-    }));
+    $pro_details.append(proTmpl);
   }
 
 function CrearImagenSwiper(data) {
