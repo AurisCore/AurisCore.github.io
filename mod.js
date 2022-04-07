@@ -1,6 +1,21 @@
      // dependencia jquery !!
  const prodArea = $(`#sc1.swiper-wrapper`);
  const thumbArea = $(`#sc2.swiper-wrapper`);
+$pro_details = $(".pro_details");
+
+var proTmpl =
+    `
+<div class="g-column description"><div class="product-name" id="prod_name"><h1>MAGAE</h1></div><div class="price-box mb-2"><span class="regular-price"><span class="price" id="prod_price">122USD</span></span></div><small class="text-primary badge">este precio no incluye la entrega</small><p class="dispo"><span>disponibles:</span><strong class="text-uppercase text-dark font-weight-bold" id="prod_disponibles">22</strong></p></div><div class="g-column py-2"><div class="flexLayout envios"><svg fill="none" height="28" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" viewBox="0 0 24 24" width="28"><rect height="13" width="15" x="1" y="3"></rect><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"></polygon><circle cx="5.5" cy="18.5" r="2.5"></circle><circle cx="18.5" cy="18.5" r="2.5"></circle></svg><span>Seleccione una ubicación de entrega</span></div><form method="post" action="javascript:void(0);" onsubmit="sendFormData()" class="form"><div class="field form-inline"><select class="crs-country form-select" name="pais" data-whitelist="UY,BR,CL,MX,AR,PY,CO,BO,VE" data-region-id="one" required></select><select class="form-select" name="region" id="one" required></select><input type="text" name="ub_total" placeholder="localidad &
+ calle" required></div><div class="field form-inline"><input type="text" name="nombre" placeholder="Nombre completo" aria-label="Nombre" required></div><input type="hidden" name="producto" value="{{titulo}}" hidden> <input type="submit" class="btn-cotizar" value="cotizar"></form><div class="m6"><img src="https://auriscore.github.io/images/Mercadopago-logo.png" width="98"> <img src="https://auriscore.github.io/images/mastercard-curved-64px.png" width="48"> <img src="https://auriscore.github.io/images/visa-curved-64px.png" width="48"></div><span>Si desea conocer los datos técnicos o tiene alguna duda,</span><span>póngase en contacto con nosotros.</span></div>
+  `;
+
+
+function CrearProDetails(data) {
+    $pro_details.append(proTmpl({
+      titulo: data.titulo,
+      precio: "$" + data.precio + currencyOk(data.currency),
+    }));
+  }
 
 function CrearImagenSwiper(data) {
     if(data.image.length >= 1) {
