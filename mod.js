@@ -40,6 +40,9 @@ var raw_e = {
     donarlnk:externosObj.donar_url
   }
 
+
+$("#panelcotizar").show()
+
 function sendFormData() {
 var pais = $("[name='pais']").val();
 var region = $("[name='region']").val();
@@ -61,7 +64,8 @@ function CrearProDetails(data,tmpl=false) {
   if (!tmpl) {
     tmpl = `
     <div class="g-column description"><div class="product-name" id="prod_name"><h1>${data.nombre}</h1></div><div class="price-box mb-2"><span class="regular-price"><span class="price" id="prod_price">${data.precio + data.currency}</span></span></div><small class="text-primary badge">${data.estado}</small><p class="m6 dispo"><span>disponibles:</span><strong class="text-uppercase text-dark font-weight-bold" id="prod_disponibles">${data.disponibles}</strong></p></div><div class="g-column py-2">
-<div id="panelcotizar" hidden>
+<button type="button" id="adquirir_button" class="btn btn-cotizar"></button>
+<div id="panel_cotizar" hidden>
     <div class="flexLayout envios"><svg fill="none" height="28" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" viewBox="0 0 24 24" width="28"><rect height="13" width="15" x="1" y="3"></rect><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"></polygon><circle cx="5.5" cy="18.5" r="2.5"></circle><circle cx="18.5" cy="18.5" r="2.5"></circle></svg><span>Seleccione una ubicación de entrega</span></div>
     <form method="post" action="javascript:void(0);" onsubmit="sendFormData()" class="form"><div class="field form-inline"><select class="crs-country form-select" name="pais" data-default-option="tu país" data-whitelist="${data.regiones_habiles}" data-region-id="one" required></select><select class="form-select" name="region" id="one" data-default-option="region" required></select><input type="text" name="ub_total" placeholder="localidad & calle" required></div><div class="field form-inline"><input type="text" name="nombre" placeholder="Nombre completo" aria-label="Nombre" required></div><input type="hidden" name="producto" value="${data.nombre}" hidden> <input type="submit" class="btn-cotizar" value="cotizar"></form>
 </div>
@@ -70,6 +74,12 @@ function CrearProDetails(data,tmpl=false) {
   }
 
   prod_div.append(tmpl);
+
+
+      $("#adquirir_button").click(function() {
+      $("#panel_cotizar").show()
+    });
+
   }
 
 function CrearImagenSwiper(data) {
