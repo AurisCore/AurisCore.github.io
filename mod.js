@@ -64,7 +64,7 @@ function CrearProDetails(data,tmpl=false) {
   if (!tmpl) {
     tmpl = `
     <div class="g-column description"><div class="product-name" id="prod_name"><h1>${data.nombre}</h1></div><div class="price-box mb-2"><span class="regular-price"><span class="price" id="prod_price">${data.precio + data.currency}</span></span></div><small class="text-primary badge">${data.estado}</small><p class="m6 dispo"><span>disponibles:</span><strong class="text-uppercase text-dark font-weight-bold" id="prod_disponibles">${data.disponibles}</strong></p>
-        <button type="button" id="adquirir_button" class="btn btn-cotizar">Adquirir Ahora</button>
+        <button type="button" id="adquirir_button" class="btn btn-cotizar" style="background: #141414;border:none;border-radius:0;">Adquirir Ahora</button>
     </div>
 
     <div class="g-column py-2">
