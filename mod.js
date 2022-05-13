@@ -76,7 +76,8 @@ function CrearProDetails(data,tmpl=false) {
   prod_div.append(tmpl);
 
 
-      $("#adquirir_button").click(function() {
+      $("#adquirir_button").click((e)=> {
+        $(this).hide();
       $("#panel_cotizar").show()
     });
 
