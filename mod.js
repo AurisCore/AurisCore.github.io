@@ -71,8 +71,8 @@ function CrearProDetails(data,tmpl=false) {
       <div id="panel_cotizar" hidden>
           <div class="flexLayout envios"><svg fill="none" height="28" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" viewBox="0 0 24 24" width="28"><rect height="13" width="15" x="1" y="3"></rect><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"></polygon><circle cx="5.5" cy="18.5" r="2.5"></circle><circle cx="18.5" cy="18.5" r="2.5"></circle></svg><span>Seleccione una ubicación de entrega</span></div>
           <form method="post" action="javascript:void(0);" onsubmit="sendFormData()" class="form"><div class="field form-inline"><select class="crs-country form-select" name="pais" data-default-option="tu país" data-whitelist="${data.regiones_habiles}" data-region-id="one" required></select><select class="form-select" name="region" id="one" data-default-option="region" required></select><input type="text" name="ub_total" placeholder="localidad & calle" required></div><div class="field form-inline"><input type="text" name="nombre" placeholder="Nombre completo" aria-label="Nombre" required></div><input type="hidden" name="producto" value="${data.nombre}" hidden> <input type="submit" class="btn-cotizar" value="cotizar"></form>
+      <div class="m6"><img src="https://auriscore.github.io/images/Mercadopago-logo.png" width="98"> <img src="https://auriscore.github.io/images/mastercard-curved-64px.png" width="48"> <img src="https://auriscore.github.io/images/visa-curved-64px.png" width="48"></div>${data.extra_html}</div>
       </div>
-    <div class="m6"><img src="https://auriscore.github.io/images/Mercadopago-logo.png" width="98"> <img src="https://auriscore.github.io/images/mastercard-curved-64px.png" width="48"> <img src="https://auriscore.github.io/images/visa-curved-64px.png" width="48"></div>${data.extra_html}</div>
     `;
   }
 
