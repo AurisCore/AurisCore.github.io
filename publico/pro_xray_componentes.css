@@ -52,14 +52,14 @@ position: absolute;
 left: 50%;
 -webkit-appearance: none;
 width: 140px;
-height: 15px;
+height: 5px;
 top: calc(100% + 16px);
 background: #0a94ff;
 outline: none;
 user-select: none;
 transform: translatex(-50%);
 }
-
+.slider:active {height: 10px;}
 .slider::-webkit-slider-thumb {
 -webkit-appearance: none;
 appearance: none;
