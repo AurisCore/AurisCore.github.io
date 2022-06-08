@@ -1,0 +1,81 @@
+:root {
+--margin-x: -5px;
+--white: #fff;
+--grey: #565656;
+--mid-grey: #737373;
+}
+
+.sandbox {
+position: relative;
+display: flex;
+align-items: center;
+justify-content: center;
+overflow: visible;
+}
+
+.objeto {
+display: flex;
+align-items: center;
+position: relative;
+}
+
+.artefacto-cuerpo {
+position: relative;
+width: 120px;
+height: 205px;
+z-index: 1;
+}
+
+.pieza {
+top: 0;
+left: 20px;
+width: 70px;
+height: 205px;
+background: var(--mid-grey);
+}
+
+.artefacto-group {
+display: flex;
+align-items: center;
+margin-left: -3px;
+}
+.artefacto-group > div {
+margin-left: var(--margin-x);
+}
+.artefacto {
+background: var(--light-grey);
+}
+
+.slider {
+-webkit-appearance: none;
+position: absolute;
+left: 50%;
+-webkit-appearance: none;
+width: 140px;
+height: 15px;
+top: calc(100% + 16px);
+background: #359c8a;
+outline: none;
+user-select: none;
+transform: translatex(-50%);
+}
+
+.slider::-webkit-slider-thumb {
+-webkit-appearance: none;
+appearance: none;
+width: 30px;
+height: 30px;
+border-radius: 50%;
+background: #eee;
+cursor: pointer;
+box-shadow: 0 0 0 4px rgba(#000, 0.1), 0 0 0 15px rgba(#000, 0.1);
+}
+
+.slider::-moz-range-thumb {
+width: 30px;
+height: 30px;
+border-radius: 50%;
+background: #eee;
+cursor: pointer;
+box-shadow: 0 0 0 4px rgba(#000, 0.1), 0 0 0 15px rgba(#000, 0.1);
+}
