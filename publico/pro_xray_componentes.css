@@ -54,7 +54,7 @@ left: 50%;
 width: 140px;
 height: 15px;
 top: calc(100% + 16px);
-background: #359c8a;
+background: #0a94ff;
 outline: none;
 user-select: none;
 transform: translatex(-50%);
@@ -63,19 +63,17 @@ transform: translatex(-50%);
 .slider::-webkit-slider-thumb {
 -webkit-appearance: none;
 appearance: none;
-width: 30px;
-height: 30px;
+width: 20px;
+height: 20px;
 border-radius: 50%;
 background: #eee;
 cursor: pointer;
-box-shadow: 0 0 0 4px rgba(#000, 0.1), 0 0 0 15px rgba(#000, 0.1);
 }
 
 .slider::-moz-range-thumb {
-width: 30px;
-height: 30px;
+width: 20px;
+height: 20px;
 border-radius: 50%;
 background: #eee;
 cursor: pointer;
-box-shadow: 0 0 0 4px rgba(#000, 0.1), 0 0 0 15px rgba(#000, 0.1);
 }
